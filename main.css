@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, h2, h3, form button {
+    font-family: 'Bungee', sans-serif;
+    font-size: large;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+body, input, textarea, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.store-front{
+    width: 640px;
+    height: 480px;
+    margin-right: 46px;
+}
+
+.social-links img {
+    height: 32px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.container-img h3,
+.container-img img {
+    display: inline;
+}
+
+.container-img img {
+    width: 44px;
+    height: 48px;
+    margin-top: 24px;
+    margin-bottom: -16px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #080808;
+    color: red;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: red;
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #080808;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: large;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: #080808;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #222222;
+}
+
+footer {
+    background-color: #080808;
+    color: red;
+    padding: 16px 0;
+}
+
+hr {
+    border: none;
+    background: linear-gradient(to right, #FFD700, #FF8C00, red);
+    height: 18px;
+}
+
+#head-hr {
+    border: none;
+    background: linear-gradient(to right, #FFD700, #FF8C00, red);
+    height: 6px;
+}
+
+#head2-hr {
+    border: none;
+    background: linear-gradient(to right, #FFD700, #FF8C00, red);
+    height: 6px;
+}
